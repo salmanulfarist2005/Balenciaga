@@ -1,0 +1,600 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+} */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+  }
+
+body {
+    margin: 0;
+    /* font-family: 'Poppins', sans-serif; */
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+ .navbar {
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+} 
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.nav-link-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link-container span {
+    margin: 5px;
+}
+
+.balenciaga-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.balenciaga-logo img {
+    width: 200px;
+    position: fixed;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.nav-search {
+    height: 12vh;
+    width: 100%;
+    padding-top: 6vh;
+    background-color: green;
+    border-bottom: 1px solid black;
+    position: fixed;
+}
+
+.nav-search input {
+    width: 100%;
+    height: 6vh;
+    padding-left: 10px;
+}
+
+.nav-search input:focus {
+    outline: none;
+}
+.le-cagole-basket {
+    width: 100%;
+    height: 105vh;
+}
+
+.le-cagole-basket {
+    background-image: url(imag/Large-HOMEPAGE_DESKTOP_WINTER23_SL_CAGOLE_BASKET_2600x1300px_2x1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.le-cagole-basket-nothing {
+    height: 90vh;
+}
+
+.le-cagole-basket-content {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.le-cagole-basket-content h2 {
+    color: white;
+}
+
+.space-between {
+    height: 10px;
+}
+
+.le-cagole-basket-content button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.new-arrivals {
+    width: 100%;
+    height: 105vh;
+}
+
+.new-arrivals {
+    background-image: url(imag/Large-HOMEPAGE\ DESKTOP_0003_W23_Look_41_2600x1300px_2x1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.new-arrivals-nothing {
+    height: 90vh;
+}
+
+.new-arrivals-content {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.new-arrivals-content h2 {
+    color: black;
+}
+
+.new-arrivals-content button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.crush-sling-bags {
+    width: 100%;
+    height: 105vh;
+}
+
+.crush-sling-bags {
+    background-image: url(imag/Large-WINTER23_SL_HOMEPAGE\ DESKTOP_2600x1300px_2x1_CRUSH_SLING_FLORAL_1789_OPTION5_V01_Master.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.crush-sling-bags-nothing {
+    height: 90vh;
+}
+
+.crush-sling-bags-content {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.crush-sling-bags h2 {
+    color: white;
+}
+
+.crush-sling-bags-content button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.new-arrivals-2 {
+    width: 100%;
+    height: 105vh;
+}
+
+.new-arrivals-2 {
+    background-image: url(imag/Large-HOMEPAGE\ DESKTOP\ W1-0006_W23_Look_16_2600x1300px.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.new-arrivals-2-nothing {
+    height: 90vh;
+}
+
+.new-arrivals-2-content {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.new-arrivals-2-content h2 {
+    color: black;
+}
+
+.new-arrivals-2-content button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.sunglasses {
+    width: 100%;
+    height: 105vh;
+}
+
+.sunglasses {
+    background-image: url(imag/Large-Home-_0000_230317_29MonacoCat_1136-5_FINAL_EXTENDED\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sunglasses-nothing {
+    height: 90vh;
+}
+
+.sunglasses-content {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.sunglasses-content h2 {
+    color: black;
+}
+
+.sunglasses-contecfnt button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.last-list-flex {
+    display: flex;
+}
+
+.last-list-flex-one {
+    height: 30vh;
+    width: 16.66%;
+    background-color: #aaaaac;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+}
+
+.last-list-flex-one span {
+    display: block;
+    line-height: 25px;
+}
+
+.flex-one-head {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.flex-one-tail {
+    font-size: 13px;
+    font-weight: 100;
+    word-spacing: -3px;
+}
+
+.flex-one-tail a{
+    color: black;
+}
+
+.flex-two-tail {
+    font-size: 13px;
+    font-weight: 100;
+    word-spacing: -3px;
+}
+
+.flex-two-tail a{
+    color: black;
+    text-decoration: none;
+}
+
+.call-us-at, .send-us-an-email {
+    font-size: 13px;
+}
+
+.call-us-at {
+    line-height: 15px;
+}
+
+.call-us-at a{
+    color: black;
+}
+
+.last-footer {
+    height: 6vh;
+    font-size: 13px;
+    background-color: #aaaaac;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width:450px) {
+    .last-list-flex {
+        flex-direction: column;
+    } 
+    
+    .last-list-flex-one {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .nav-links-left {
+        display: none;
+    }
+
+    .nav-links-right {
+        display: none;
+    }
+
+    .nav-right-container-services-login {
+        display: none;
+    }
+
+    .img-for-media {
+        margin-left: 72%;
+    }
+
+    .balenciaga-logo img {
+        margin-top: 15px;
+    }
+    .footer-over{
+        display: none;
+    }
+    .footer-over:hover{
+        display: block;
+    }
+    .dropdown button{
+        display: none;
+    }
+    .heder2{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:767px){
+    .le-cagole-basket {
+        background-image: url(imag/Medium-HEROBANNER_MOBILE_WINTER23_SL_CAGOLE_BASKET_PLP_1600x1280px_5x4.jpg);
+        height: 80vh;
+    }
+    
+    .new-arrivals {
+        background-image: url(imag/Medium-HOMEPAGE\ MOBILE_0003_W23_Look_41__2105x2600_4x5.jpg);
+        height: 80vh;
+    }
+
+    .crush-sling-bags {
+        background-image: url(imag/Medium-WINTER23_SL_HOMEPAGE\ MOBILE_2105x2600_4x5_CRUSH_SLING_FLORAL_1789_OPTION5_V01_Master.jpg);
+        height: 80vh;
+    }
+
+    .new-arrivals-2 {
+        background-image: url(imag/Medium-HOMEPAGE\ MOBILE_W1-0006_W23_Look_16_2105x2600.jpg);
+        height: 80vh;
+    }
+
+    .sunglasses {
+        background-image: url(imag/Medium-Home-_0000_230317_29MonacoCat_1136-5_FINAL_EXTENDED\ \(1\).jpg);
+        height: 80vh;
+    }
+
+    .le-cagole-basket-nothing {
+        height: 65vh;
+    }
+
+    .new-arrivals-nothing {
+        height: 65vh;
+    }
+
+    .crush-sling-bags-nothing {
+        height: 65vh;
+    }
+
+    .new-arrivals-2-nothing {
+        height: 65vh;
+    }
+
+    .sunglasses-nothing {
+        height: 65vh;
+    }
+    .text{
+        display: none;
+    }
+}
+
+
+
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Mega Menu header, if needed */
+  .dropdown-content .header {
+    /* background: whitesmoke; */
+    padding: 16px;
+    /* color: black; */
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 16.66%;
+    padding: 10px;
+    background-color:white ;
+    height: 430px;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    
+  }
+  
+  /* Style links inside the columns */
+  .column a {
+    float: none;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    line-height: 15px;
+    font-weight: 5px;
+    font-size: 13px;
+ 
+  }
+  
+  /* Add a background color on hover */
+  .column a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    /* clear: both; */
+  }
+
+  .nav-item{
+    color: black;
+  }
+
+  .nav-links-left,.nav-links-right{
+    margin-top: 15px;
+  }
+  .heder1{
+    float: left;
+    width: 16.66%;
+    padding: 10px;
+    background-color:white ;
+    height: 260px;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    /* padding: 10px; */
+  }
+  .heder1 a{
+    float: none;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    line-height: 12px;
+    font-weight: 5px;
+    font-size: 13px;
+ 
+  }
+  .heder1 a:hover{
+    background-color: #ddd;
+  }
+  .heder2{
+position: relative;
+top: 14px;
+  }
+  .heder3{
+    float: left;
+    width: 16.66%;
+    padding: 10px;
+    background-color:white ;
+    height: 750px;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+
+  }
+  .heder3 a{
+    float: none;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    line-height: 15px;
+    font-weight: 5px;
+    font-size: 13px;
+
+  }
+  .heder3 a:hover{
+    background-color: #ddd;
+
+
+  }
+  .sunglasses-two-buttons{
+margin-top: -29px;
+
+  }
